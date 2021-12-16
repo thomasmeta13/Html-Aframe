@@ -10,10 +10,6 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist')
 	},
 
-	plugins: [new webpack.ProgressPlugin(), new CopyPlugin([
-      { from: 'examples', to: 'examples' }
-  ])],
-
 	module: {
 		rules: [
 			{

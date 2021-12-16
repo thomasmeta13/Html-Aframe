@@ -4,8 +4,8 @@
   "description": "HTML Embed is a component created for A-Frame. The HTML Embed component allows for arbitrary html to be inserted into your aframe scene. It allows you to update the display within A-Frame simply by manipulating the DOM as you normally would.",
   "main": "dist/build.js",
   "scripts": {
-    "build": "git rm -fR dist/* && webpack --mode=production",
-    "start": "webpack-dev-server --mode development --open-page examples/"
+    "build": "rm -fR dist/* && webpack --mode=production",
+    "start": "webpack-dev-server --mode development --open-page index.html"
   },
   "author": "supereggbert",
   "license": "MIT",
@@ -19,5 +19,4 @@
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
   }
-}
 }
