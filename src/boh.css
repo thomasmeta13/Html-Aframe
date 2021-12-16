@@ -1,0 +1,41 @@
+.tasks{
+    background-color: #f5d556;
+    border: 1px solid #f5d556;
+    border-radius: 20px;
+    height: 400px;
+    padding: 30px 100px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+  }
+  
+  ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px 0;
+  }
+  
+  .remove{
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .bi-x-octagon-fill{
+    color: red;
+  }
+  
+  .strike{
+    text-decoration: line-through;
+  }
+  
+  .show{
+    display: none;
+  }
+  
+  
